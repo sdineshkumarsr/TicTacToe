@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    
+    text-align: center;
+}
+.titleName{
+    color: #8338ec;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin-top: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 80vh;
+}
+.leftC,.rightC{
+    width: 20vw;
+    text-align: center;
+}
+.msg{
+    font-size: 5vmin;
+    margin-bottom: 10px;
+    color:#38b000;
+}
+
+.again{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #8338ec;
+    color: #ffbe0b;
+}
+
+.again:hover{
+    background-color: #9b5bf4;
+}
+.innerC{
+    background-color: #0077b6;
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius:1rem;
+    font-size: 8vmin;
+    background-color: #9381ff;
+    color:#03045e;
+}
+.box:hover{
+    background-color: #b8b8ff;
+}
+
+.playerDis{
+    padding: 10px 20px;
+    font-size: 5vmin;
+    border-radius: 10px;
+    background-color: #8338ec;
+    color: #ffff;
+}
+
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    background-color: #8338ec;
+    color: #ffff;
+}
+.hide{
+    display: none;
+}
